@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/8ugust-terrafirst/static/css/main.f855e6bc.css",
-    "main.js": "/8ugust-terrafirst/static/js/main.beacbd3a.js",
-    "static/js/453.1eeacc57.chunk.js": "/8ugust-terrafirst/static/js/453.1eeacc57.chunk.js",
-    "static/media/logo.svg": "/8ugust-terrafirst/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/8ugust-terrafirst/index.html",
-    "main.f855e6bc.css.map": "/8ugust-terrafirst/static/css/main.f855e6bc.css.map",
-    "main.beacbd3a.js.map": "/8ugust-terrafirst/static/js/main.beacbd3a.js.map",
-    "453.1eeacc57.chunk.js.map": "/8ugust-terrafirst/static/js/453.1eeacc57.chunk.js.map"
+    "main.css": "/Terrafirst/static/css/main.f855e6bc.css",
+    "main.js": "/Terrafirst/static/js/main.3e3f9cb0.js",
+    "static/js/453.1eeacc57.chunk.js": "/Terrafirst/static/js/453.1eeacc57.chunk.js",
+    "static/media/logo.svg": "/Terrafirst/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Terrafirst/index.html",
+    "main.f855e6bc.css.map": "/Terrafirst/static/css/main.f855e6bc.css.map",
+    "main.3e3f9cb0.js.map": "/Terrafirst/static/js/main.3e3f9cb0.js.map",
+    "453.1eeacc57.chunk.js.map": "/Terrafirst/static/js/453.1eeacc57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.beacbd3a.js"
+    "static/js/main.3e3f9cb0.js"
   ]
 }
