@@ -1,0 +1,24 @@
+/* Body =================== =================== =================== */
+body { margin: 0; }
+
+
+
+/* App =================== =================== =================== */
+.App { display: flex; }
+
+.app-side {
+    background-color: #E2E2E2;
+    width: calc(100vw - 1000px);
+    height: 100vh;
+}
+
+.app-main {
+    background-color: white;
+    width: 1000px;
+    height: 100vh;
+}
+
+
+@media (max-width: 1000px) {
+    .app-side { display: none; }
+}

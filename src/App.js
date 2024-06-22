@@ -1,11 +1,19 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './Main/Main';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      Hi
+      <div className='app-side'></div>
+      <div className='app-main'>
+        <BrowserRouter basename='Terrafirst'>
+          <Routes>
+            <Route path='/' element={<Main />}/>
+          </Routes>
+        </BrowserRouter>
+      </div>
+      <div className='app-side'></div>
     </div>
   );
 }
