@@ -5,13 +5,19 @@
 }
 
 .main-bg {
-    background-image: url('../resource/Main/main_img.jpg');
-    background-position: -450px;
+    background-image: url('./resource/main_img.jpg');
+    animation: linear move 60s infinite;
     background-size: cover;
     position: relative;
     height: 100%;
     width: 100%;
     z-index: 1;
+}
+
+@keyframes move {
+    0% { background-position: -300px; }
+    50% { background-position: -700px; }
+    100% { background-position: -300px; }
 }
 
 .float-wrap {
