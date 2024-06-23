@@ -31,6 +31,24 @@
 }
 
 .float-wrap > .title {
+    text-shadow: 6px 2px 2px rgb(73, 73, 73);
+    font-weight: bold;
+    margin-top: 25%;
+    font-size: 400%;
     color: white;
-    font-size: 50px;
+}
+
+.float-wrap > .btn-start {
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 70%;
+    font-size: 200%;
+    padding: 2% 7%;
+    color: black;
+    bottom: 0;
+}
+
+.float-wrap > .btn-start:active {
+    background-color: rgb(97, 196, 163);
 }

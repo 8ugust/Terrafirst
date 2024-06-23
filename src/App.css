@@ -6,7 +6,15 @@
 
 
 /* Body =================== =================== =================== */
-body { margin: 0; font-family: 'Bender'; }
+body {
+    -webkit-tap-highlight-color : none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: 'Bender'; 
+    user-select: none;
+    margin: 0; 
+}
 
 
 

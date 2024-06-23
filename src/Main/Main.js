@@ -6,7 +6,8 @@ const Main = () => {
         <div className='main-wrap'>
             <div className='main-bg'>
                 <div className='float-wrap'>
-                    <div className='title'>Terra-First</div>
+                    <div className='title'>TERRA-FIRST</div>
+                    <div className='btn-start'>START</div>
                 </div>
             </div>
         </div>
