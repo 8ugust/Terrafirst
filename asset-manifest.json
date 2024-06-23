@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Terrafirst/static/css/main.63e30dda.css",
-    "main.js": "/Terrafirst/static/js/main.bc1b3e2f.js",
+    "main.css": "/Terrafirst/static/css/main.38bf533e.css",
+    "main.js": "/Terrafirst/static/js/main.13ef339e.js",
+    "static/media/main_img.jpg": "/Terrafirst/static/media/main_img.c15052490fdaf6ab0061.jpg",
+    "static/media/Jovanny Lemonad - Bender.otf": "/Terrafirst/static/media/Jovanny Lemonad - Bender.554dbf85e7b088fa9434.otf",
     "index.html": "/Terrafirst/index.html",
-    "main.63e30dda.css.map": "/Terrafirst/static/css/main.63e30dda.css.map",
-    "main.bc1b3e2f.js.map": "/Terrafirst/static/js/main.bc1b3e2f.js.map"
+    "main.38bf533e.css.map": "/Terrafirst/static/css/main.38bf533e.css.map",
+    "main.13ef339e.js.map": "/Terrafirst/static/js/main.13ef339e.js.map"
   },
   "entrypoints": [
-    "static/css/main.63e30dda.css",
-    "static/js/main.bc1b3e2f.js"
+    "static/css/main.38bf533e.css",
+    "static/js/main.13ef339e.js"
   ]
 }
