@@ -1,5 +1,12 @@
+/* Font =================== =================== =================== */
+@font-face {
+    font-family: 'Bender';
+    src: url('./Font/Jovanny\ Lemonad\ -\ Bender.otf');
+}
+
+
 /* Body =================== =================== =================== */
-body { margin: 0; }
+body { margin: 0; font-family: 'Bender'; }
 
 
 
