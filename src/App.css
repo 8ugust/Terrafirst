@@ -8,17 +8,17 @@ body { margin: 0; }
 
 .app-side {
     background-color: #E2E2E2;
-    width: calc(100vw - 1000px);
+    width: calc(100vw - 800px);
     height: 100vh;
 }
 
 .app-main {
     background-color: white;
-    width: 1000px;
+    width: 800px;
     height: 100vh;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .app-side { display: none; }
 }

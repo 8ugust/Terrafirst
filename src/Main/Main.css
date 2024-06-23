@@ -1,0 +1,30 @@
+/* Wrap ==================== ==================== ==================== */
+.main-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.main-bg {
+    background-image: url('../resource/Main/main_img.jpg');
+    background-position: -450px;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.float-wrap {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.float-wrap > .title {
+    color: white;
+    font-size: 50px;
+}
