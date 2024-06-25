@@ -1,3 +1,4 @@
+import Loading from '../Loading/Loading';
 import './Main.css';
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
                     <div className='btn-start'>START</div>
                 </div>
             </div>
+            <Loading />
         </div>
     );
 }

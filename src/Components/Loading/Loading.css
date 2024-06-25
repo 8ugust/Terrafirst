@@ -1,0 +1,13 @@
+.load-wrap {
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	display: none;
+	z-index: 100;
+	width: 600px;
+	height: 100%;
+	top: 0;
+}
+
+@media (max-width: 600px) {
+    .load-wrap { width: 100%; }
+}

@@ -23,17 +23,17 @@ body {
 
 .app-side {
     background-color: #E2E2E2;
-    width: calc(100vw - 800px);
+    width: calc((100vw - 600px)/2);
     height: 100vh;
 }
 
 .app-main {
     background-color: white;
-    width: 800px;
+    width: 600px;
     height: 100vh;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .app-side { display: none; }
 }
