@@ -1,7 +1,10 @@
 .load-wrap {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 1);
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	position: absolute;
-	display: none;
+	display: flex;
 	z-index: 100;
 	width: 600px;
 	height: 100%;
@@ -10,4 +13,36 @@
 
 @media (max-width: 600px) {
     .load-wrap { width: 100%; }
+}
+
+.load-line {
+	position: relative;
+	overflow: hidden;
+	width: 30%;
+}
+
+.icon-rocket {
+	animation: linear rocket 1s infinite;
+	transform: rotate(45deg);
+	margin-left: -35px;
+	font-size: 30px;
+	color: white;
+}
+
+@keyframes rocket {
+	0% {margin-left: -35px;}
+	100% {margin-left: 100%;}
+}
+
+.load-text {
+	animation: linear loadTxt 0.5s infinite;
+	margin-top: 10px;
+	font-size: 30px;
+	color: white;
+}
+
+@keyframes loadTxt {
+	0%   {color: grey;}
+	50%  {color: white;}
+	100% {color: grey;}
 }
