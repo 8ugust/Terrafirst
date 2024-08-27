@@ -11,7 +11,7 @@ const Main = () => {
 
     const onStart = () => {
         setSHide('none');
-        setRHide('flex');
+        setRHide('block');
     }
 
 
@@ -21,8 +21,14 @@ const Main = () => {
                 <div className='float-wrap'>
                     <div className='title'>TERRA-FIRST</div>
                     <div className='btn-start' onClick={onStart} style={{display:sHide}}>START</div>
-                    <div className='room-wrap' style={{display:sHide}}>
-
+                    <div className='room-wrap' style={{display:rHide}}>
+                        <div className='room-list'>
+                            <div></div>
+                        </div>
+                        <div className='btn-wrap'>
+                            <div className='btn'>NEW</div>
+                            <div className='btn'>START</div>
+                        </div>
                     </div>
                 </div>
             </div>
